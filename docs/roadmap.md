@@ -1,4 +1,4 @@
-# Self‑Healing Kubernetes Platform with AI‑Assisted Remediation — Mini Capstone Plan
+# Self‑Healing Kubernetes Platform with AI‑Assisted Remediation
 
 **Owner:** Daksh sir  
 **Goal:** Build a production‑grade EKS‑based platform that detects incidents via observability, automatically executes remediation workflows, and uses an AI assistant to analyze and summarize root causes. This showcases SRE automation, observability, incident response, and optional AI-assisted analysis.
