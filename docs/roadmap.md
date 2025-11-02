@@ -1,6 +1,6 @@
 # Self‑Healing Kubernetes Platform with AI‑Assisted Remediation
 
-**Owner:** Daksh sir  
+**Owner:** Daksh
 **Goal:** Build a production‑grade EKS‑based platform that detects incidents via observability, automatically executes remediation workflows, and uses an AI assistant to analyze and summarize root causes. This showcases SRE automation, observability, incident response, and optional AI-assisted analysis.
 
 ---
@@ -48,14 +48,14 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-## 3) Phase‑by‑Phase Roadmap (8 weeks suggested)
+## 3) Phase‑by‑Phase Roadmap 
 
-### Phase 0 — Prep (2–4 days)
+### Phase 0 — Prep 
 - Setup GitHub repo (monorepo with `infra/`, `k8s/`, `services/`, `observability/`) and issue tracker.  
 - Decide tech choices (Terraform, EKS, Argo, Prometheus, Loki, Grafana, Alertmanager, Argo Workflows, language for webhook service).  
 - Create an initial `README.md` with scope and success metrics.
 
-### Phase 1 — Foundation & Observability (Week 1)
+### Phase 1 — Foundation & Observability 
 **Goal:** Working EKS cluster + sample app + end‑to‑end metrics/logs/traces.
 
 **Deliverables**:
@@ -73,7 +73,7 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-### Phase 2 — Alerting + Basic Remediation (Week 2)
+### Phase 2 — Alerting + Basic Remediation 
 **Goal:** Alerts fire and trigger a basic remediation action.
 
 **Deliverables**:
@@ -90,7 +90,7 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-### Phase 3 — Orchestrated Remediation Workflows (Week 3–4)
+### Phase 3 — Orchestrated Remediation Workflows 
 **Goal:** Replace ad‑hoc calls with structured workflows and incident logging.
 
 **Deliverables**:
@@ -108,7 +108,7 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-### Phase 4 — Observability Improvements & SLOs (Week 5)
+### Phase 4 — Observability Improvements & SLOs 
 **Goal:** Tighten observability, add dashboards, and measure SLO compliance.
 
 **Deliverables**:
@@ -124,7 +124,7 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-### Phase 5 — Chaos + Validation (Week 6)
+### Phase 5 — Chaos + Validation 
 **Goal:** Verify self‑healing using chaos experiments and validate runbooks.
 
 **Deliverables**:
@@ -140,7 +140,7 @@ Users --> ALB/Ingress --> App (K8s services)
 
 ---
 
-### Phase 6 — AI‑Assisted Analysis & UX (Week 7–8)
+### Phase 6 — AI‑Assisted Analysis & UX 
 **Goal:** Add AI analysis to make remediation explanations human‑friendly.
 
 **Deliverables**:
