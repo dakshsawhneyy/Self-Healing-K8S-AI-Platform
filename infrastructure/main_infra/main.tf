@@ -46,6 +46,8 @@ module "eks" {
   create_kms_key = true
   kms_key_description = "EKS cluster ${var.project_name} encryption key"
   kms_key_deletion_window_in_days = 7
+
+  enable_irsa = true
   
   tags = local.common_tags
 }
